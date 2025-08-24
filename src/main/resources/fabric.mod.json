@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "yuzu",
+	"version": "${version}",
+	"name": "Yuzu",
+	"description": "1.21.4的模组！",
+	"authors": [
+		"Yuzu"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/yuzu/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ierfuhs.yuzu.Yuzu"
+		],
+		"fabric-datagen": [
+			"com.ierfuhs.yuzu.YuzuDataGenerator"
+		],
+		"client": [
+			"com.ierfuhs.yuzu.YuzuClient"
+		]
+	},
+	"mixins": [
+		"yuzu.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
