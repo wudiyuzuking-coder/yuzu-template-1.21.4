@@ -8,8 +8,7 @@
 		"Yuzu"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/wudiyuzuking-coder/yuzu-template-1.21.4"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/yuzu/icon.png",
